@@ -32,18 +32,6 @@ export default function Chat() {
                     {messages && messages.map((message) => (
                         <ChatMessage key={message.id} message={message} />
                     ))}
-                    {messages && messages.map((message) => (
-                        <ChatMessage key={message.id} message={message} />
-                    ))}
-                    {messages && messages.map((message) => (
-                        <ChatMessage key={message.id} message={message} />
-                    ))}
-                    {messages && messages.map((message) => (
-                        <ChatMessage key={message.id} message={message} />
-                    ))}
-                    {messages && messages.map((message) => (
-                        <ChatMessage key={message.id} message={message} />
-                    ))}
                     <span ref={scroll}></span>
                 </div>
             </section>
