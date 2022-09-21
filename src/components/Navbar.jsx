@@ -25,7 +25,7 @@ export default function Navbar() {
     const [user] = useAuthState(auth)
 
     return (
-        <nav className="flex justify-between place-items-center">
+        <nav className="bg-slate-800 p-5 flex justify-between place-items-center">
             <h1 className="text-white text-2xl">Superchat</h1>
             {user ? <UserProfile /> : <SignIn />}
         </nav>
